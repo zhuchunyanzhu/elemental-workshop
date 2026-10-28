@@ -1,0 +1,43 @@
+{
+  "name": "元素工坊 · 活泼金属实验",
+  "short_name": "元素工坊",
+  "description": "一款关于活泼金属的化学实验小游戏：收集金属、观察反应、补全元素图鉴。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#222932",
+  "theme_color": "#222932",
+  "categories": ["games", "education"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "开始实验",
+      "short_name": "开始",
+      "url": "./index.html"
+    }
+  ]
+}
